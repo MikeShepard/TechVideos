@@ -1,0 +1,1 @@
+﻿New-PSUDashboard -Name "TechVideos" -FilePath "dashboards\TechVideos\TechVideos.ps1" -BaseUrl "/TechVideos" -AutoDeploy
