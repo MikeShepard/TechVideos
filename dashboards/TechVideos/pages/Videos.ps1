@@ -1,4 +1,4 @@
-﻿New-UDPage -Url "/TechVideos/Home" -Name "Home" -Content {
+﻿New-UDPage -Url "/TechVideos/Videos" -Name "Videos" -Content {
     # Use Get-UDPage -Name 'Home' to use this page in your dashboard
     $data = Get-PSUCache -Key Videos 
     if (-not $data) {
